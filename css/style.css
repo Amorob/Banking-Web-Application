@@ -196,6 +196,10 @@ a:hover {
   height: 25vh;
   background: url("../images/writing.jpeg");
 }
+.about {
+  margin: 20px 0;
+  padding: 50px;
+}
 .about-about {
   padding: 10px;
   display: flex;
@@ -211,11 +215,11 @@ a:hover {
 .about-board,
 .about-team {
   margin: 50px 0;
-  padding: 20px 10px;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 50px;
-  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 /* Footer */
