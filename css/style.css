@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* Utility Classes */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #262626;
+}
+a:hover {
+  color: blue;
+}
+.container {
+  width: 75%;
+  margin: auto;
+  padding: 50px;
+}
+.btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: green;
+  color: #ffffff;
+}
+.btn:hover {
+  background-color: #262626;
+  color: blue;
+  font-size: 1.2rem;
+}
+/* Navbar */
+.navbar ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+}
+/* Nav menu-top */
+.menu-top {
+  background-color: #262626;
+  height: 35px;
+  padding: 5px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+}
+
+.menu-top a {
+  color: #ffffff;
+  padding: 10px;
+}
+.menu-top a:hover {
+  color: blue;
+}
+/* Nav menu-main */
+.menu-main {
+  background-color: #ffffff;
+  min-height: 100px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.menu-main img {
+  width: 70px;
+}
+.menu-main ul {
+  justify-content: flex-start;
+}
+.menu-main a {
+  color: #262626;
+  padding: 10px;
+}
+.menu-main a:hover {
+  color: green;
+  opacity: 0.8;
+  font-size: 1.3rem;
+}
+/* Search bar */
+.search-bar input {
+  padding: 10px 20px;
+  margin: 0;
+  border-collapse: collapse;
+}
+/* Main body */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+/* Sate Bank */
+.sate-bank {
+  min-height: 200px;
+}
+.sate-bank-text {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Showcase */
+.showcase {
+  background: url("../images/writing.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.products {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+/* EBanking */
+.ebanking {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.account-balance {
+  min-height: 30px;
+  width: 300px;
+  border: 1px solid blue;
+  padding: 10px 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.deposite-form input {
+  min-height: 30px;
+  width: 150px;
+  border: 1px solid blue;
+  padding: 10px 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* People */
+.people {
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.covid19 {
+  height: 200px;
+  background: url("../images/weather.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #eeeeee;
+}
+
+/* About page */
+.about-top {
+  height: 25vh;
+  background: url("../images/writing.jpeg");
+}
+.about-about {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #262626;
+}
+.about-history,
+.about-mission,
+.about-vision,
+.about-board,
+.about-team {
+  margin: 50px 0;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 50px;
+  background-color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  color: #ffffff;
+}
+.main-footer {
+  min-height: 200px;
+  padding: 20px;
+  background-color: #262626;
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.main-footer a {
+  color: #ffffff;
+  padding: 5px;
+}
+.main-footer a:hover {
+  color: blue;
+  font-size: 1rem;
+}
+.main-footer li {
+  padding: 5px;
+}
+
+.copy-footer {
+  min-height: 50px;
+  background-color: #000000;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.copy-footer a {
+  color: #ffffff;
+  padding: 5px;
+}
+.copy-footer a:hover {
+  color: blue;
+  font-size: 1rem;
+}
