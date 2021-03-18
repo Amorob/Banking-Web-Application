@@ -192,7 +192,7 @@ a:hover {
 }
 
 /* About page */
-.about-top {
+.banner {
   height: 25vh;
   background: url("../images/writing.jpeg");
 }
@@ -222,6 +222,39 @@ a:hover {
   justify-content: center;
 }
 
+/* Contact */
+.contact {
+  min-height: 400px;
+  background-color: #ffffff;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.contact > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+/* Products Page */
+.products-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 50px;
+}
+.products-page h2 {
+  padding: 50px;
+}
+
+.products-and-services {
+  display: flex;
+  padding: 20px 0;
+}
 /* Footer */
 .footer {
   color: #ffffff;
