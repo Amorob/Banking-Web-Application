@@ -1,21 +1,6 @@
-let balance = document.getElementById("account-balance");
-let amount = document.getElementById("deposite-amount");
-let deposite = document.getElementById("deposite");
-balance.innerHTML = 0;
-
-deposite.addEventListener("click", function () {
-  balance += amount;
-  balance.innerHTML.value = balance;
-
-  //   return balance.innerHTML;
-  //   balance.value += amount;
-  //   balance.innerHTML = balance.value;
-  //   return (balance += amount);
-});
-
-function calculate() {
-  var num1 = document.getElementById("first").value;
-  var num2 = document.getElementById("second").value;
-  var operation = document.getElementById("oper").value;
-  return (balance += amount);
+function getInputValue() {
+  let balance = 0.0;
+  let deposit = document.getElementById("deposite-ammount").value;
+  balance += Number(deposit);
+  document.getElementById("account-balance").innerHTML = balance + ".00";
 }
